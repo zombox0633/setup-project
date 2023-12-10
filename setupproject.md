@@ -44,4 +44,16 @@
   https://github.com/prettier/eslint-config-prettier
 
 ## การตั้งค่าให้เมื่อ commit code ทำการเช็คเงือนไขและทำตาม scripts ที่ตั้งค่าไว้ใน husky ***
-1. ทำการ git init ,add , commit เสร็จแล้วทำตาม  https://typicode.github.io/husky/getting-started.html 
+  ทำการ git init ,add , commit เสร็จแล้วจะสามารถทำตามขั้นตอนต่อไปได้  https://typicode.github.io/husky/getting-started.html 
+
+  1. npm install husky --save-dev
+  2. npx husky install
+  3. นำ code ด้านล่างไปใส่ใน package.json
+
+  {
+  "scripts": {
+    "prepare": "husky install" 
+  }
+}
+
+  4. ทำควา่มเข้าใจก่อนใช้งาน Bash scripting ก่อนที่จะทำการกำหนด https://devhints.io/bash 
