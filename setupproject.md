@@ -40,8 +40,13 @@
   2. กำหนดคำสั่งใน package.json  "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0" ทำการแจ้งเตือนและตรวจสอบ
 
 
-## ทำให้ eslint อยู่กับ prettier ได้โดยลง npm install --save-dev eslint-config-prettier
+## ทำให้ eslint อยู่กับ prettier ได้โดยลง
+  npm install --save-dev eslint-config-prettier
+
   https://github.com/prettier/eslint-config-prettier
+
+## ทำการเพิ่ม prettier-plugin-tailwindcss จัด format className
+npm install prettier-plugin-tailwindcss --save-dev
 
 ## การตั้งค่าให้เมื่อ commit code ทำการเช็คเงือนไขและทำตาม scripts ที่ตั้งค่าไว้ใน husky ***
   ทำการ git init ,add , commit เสร็จแล้วจะสามารถทำตามขั้นตอนต่อไปได้  https://typicode.github.io/husky/getting-started.html 
@@ -57,3 +62,7 @@
 }
 
   4. ทำควา่มเข้าใจก่อนใช้งาน Bash scripting ก่อนที่จะทำการกำหนด https://devhints.io/bash 
+
+
+การใช้งาน Fast Node Manager (fnm)
+ใช้คำสั่ง fnm env | Invoke-Expression เพื่อใช้งาน

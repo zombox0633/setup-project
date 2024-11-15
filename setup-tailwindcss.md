@@ -24,3 +24,6 @@ module.exports = {
 แก้ไข eslintrc ใน env:[ เพิ่ม node: true]
 
 ### ถ้าไม่ขึ้นปิดเปิด vscode ใหม่
+
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
